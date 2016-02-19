@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C8AD8DEF-363D-41D4-B780-7FC4D25E48A4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BlurryImage</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0446B98CAB3791EFF2C98AD4E7099327AC2C9800</key>
+		<string>gitlab.com:xiaobaiso/myios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BlurryImage/BlurryImage.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0446B98CAB3791EFF2C98AD4E7099327AC2C9800</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>gitlab.com:xiaobaiso/myios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0446B98CAB3791EFF2C98AD4E7099327AC2C9800</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0446B98CAB3791EFF2C98AD4E7099327AC2C9800</string>
+			<key>IDESourceControlWCCName</key>
+			<string>workspace</string>
+		</dict>
+	</array>
+</dict>
+</plist>

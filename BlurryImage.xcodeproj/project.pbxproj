@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03CCAB401C4B6D690024FAD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CCAB3F1C4B6D690024FAD4 /* main.m */; };
+		03CCAB431C4B6D690024FAD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CCAB421C4B6D690024FAD4 /* AppDelegate.m */; };
+		03CCAB4B1C4B6D690024FAD4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03CCAB4A1C4B6D690024FAD4 /* Images.xcassets */; };
+		03CCAB4E1C4B6D690024FAD4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03CCAB4C1C4B6D690024FAD4 /* LaunchScreen.xib */; };
+		03CCAB5A1C4B6D6A0024FAD4 /* BlurryImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CCAB591C4B6D6A0024FAD4 /* BlurryImageTests.m */; };
+		03CCAB681C4B6DFC0024FAD4 /* DemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CCAB671C4B6DFC0024FAD4 /* DemoController.m */; };
+		03CCAB6E1C4B6EBF0024FAD4 /* ANBlurredImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CCAB6B1C4B6EBF0024FAD4 /* ANBlurredImageView.m */; };
+		03CCAB6F1C4B6EBF0024FAD4 /* UIImage+BoxBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CCAB6D1C4B6EBF0024FAD4 /* UIImage+BoxBlur.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03CCAB541C4B6D6A0024FAD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03CCAB321C4B6D690024FAD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03CCAB391C4B6D690024FAD4;
+			remoteInfo = BlurryImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03CCAB3A1C4B6D690024FAD4 /* BlurryImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurryImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03CCAB3E1C4B6D690024FAD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03CCAB3F1C4B6D690024FAD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03CCAB411C4B6D690024FAD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03CCAB421C4B6D690024FAD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03CCAB4A1C4B6D690024FAD4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		03CCAB4D1C4B6D690024FAD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		03CCAB531C4B6D6A0024FAD4 /* BlurryImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlurryImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03CCAB581C4B6D6A0024FAD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03CCAB591C4B6D6A0024FAD4 /* BlurryImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlurryImageTests.m; sourceTree = "<group>"; };
+		03CCAB661C4B6DFC0024FAD4 /* DemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoController.h; sourceTree = "<group>"; };
+		03CCAB671C4B6DFC0024FAD4 /* DemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoController.m; sourceTree = "<group>"; };
+		03CCAB6A1C4B6EBF0024FAD4 /* ANBlurredImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANBlurredImageView.h; sourceTree = "<group>"; };
+		03CCAB6B1C4B6EBF0024FAD4 /* ANBlurredImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANBlurredImageView.m; sourceTree = "<group>"; };
+		03CCAB6C1C4B6EBF0024FAD4 /* UIImage+BoxBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BoxBlur.h"; sourceTree = "<group>"; };
+		03CCAB6D1C4B6EBF0024FAD4 /* UIImage+BoxBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BoxBlur.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03CCAB371C4B6D690024FAD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03CCAB501C4B6D6A0024FAD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03CCAB311C4B6D690024FAD4 = {
+			isa = PBXGroup;
+			children = (
+				03CCAB3C1C4B6D690024FAD4 /* BlurryImage */,
+				03CCAB561C4B6D6A0024FAD4 /* BlurryImageTests */,
+				03CCAB3B1C4B6D690024FAD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03CCAB3B1C4B6D690024FAD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03CCAB3A1C4B6D690024FAD4 /* BlurryImage.app */,
+				03CCAB531C4B6D6A0024FAD4 /* BlurryImageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03CCAB3C1C4B6D690024FAD4 /* BlurryImage */ = {
+			isa = PBXGroup;
+			children = (
+				03CCAB691C4B6EB00024FAD4 /* Classes */,
+				03CCAB411C4B6D690024FAD4 /* AppDelegate.h */,
+				03CCAB421C4B6D690024FAD4 /* AppDelegate.m */,
+				03CCAB4A1C4B6D690024FAD4 /* Images.xcassets */,
+				03CCAB4C1C4B6D690024FAD4 /* LaunchScreen.xib */,
+				03CCAB3D1C4B6D690024FAD4 /* Supporting Files */,
+				03CCAB661C4B6DFC0024FAD4 /* DemoController.h */,
+				03CCAB671C4B6DFC0024FAD4 /* DemoController.m */,
+			);
+			path = BlurryImage;
+			sourceTree = "<group>";
+		};
+		03CCAB3D1C4B6D690024FAD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03CCAB3E1C4B6D690024FAD4 /* Info.plist */,
+				03CCAB3F1C4B6D690024FAD4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03CCAB561C4B6D6A0024FAD4 /* BlurryImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				03CCAB591C4B6D6A0024FAD4 /* BlurryImageTests.m */,
+				03CCAB571C4B6D6A0024FAD4 /* Supporting Files */,
+			);
+			path = BlurryImageTests;
+			sourceTree = "<group>";
+		};
+		03CCAB571C4B6D6A0024FAD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03CCAB581C4B6D6A0024FAD4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03CCAB691C4B6EB00024FAD4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				03CCAB6A1C4B6EBF0024FAD4 /* ANBlurredImageView.h */,
+				03CCAB6B1C4B6EBF0024FAD4 /* ANBlurredImageView.m */,
+				03CCAB6C1C4B6EBF0024FAD4 /* UIImage+BoxBlur.h */,
+				03CCAB6D1C4B6EBF0024FAD4 /* UIImage+BoxBlur.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03CCAB391C4B6D690024FAD4 /* BlurryImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03CCAB5D1C4B6D6A0024FAD4 /* Build configuration list for PBXNativeTarget "BlurryImage" */;
+			buildPhases = (
+				03CCAB361C4B6D690024FAD4 /* Sources */,
+				03CCAB371C4B6D690024FAD4 /* Frameworks */,
+				03CCAB381C4B6D690024FAD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlurryImage;
+			productName = BlurryImage;
+			productReference = 03CCAB3A1C4B6D690024FAD4 /* BlurryImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03CCAB521C4B6D6A0024FAD4 /* BlurryImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03CCAB601C4B6D6A0024FAD4 /* Build configuration list for PBXNativeTarget "BlurryImageTests" */;
+			buildPhases = (
+				03CCAB4F1C4B6D6A0024FAD4 /* Sources */,
+				03CCAB501C4B6D6A0024FAD4 /* Frameworks */,
+				03CCAB511C4B6D6A0024FAD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03CCAB551C4B6D6A0024FAD4 /* PBXTargetDependency */,
+			);
+			name = BlurryImageTests;
+			productName = BlurryImageTests;
+			productReference = 03CCAB531C4B6D6A0024FAD4 /* BlurryImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03CCAB321C4B6D690024FAD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "小白";
+				TargetAttributes = {
+					03CCAB391C4B6D690024FAD4 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					03CCAB521C4B6D6A0024FAD4 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 03CCAB391C4B6D690024FAD4;
+					};
+				};
+			};
+			buildConfigurationList = 03CCAB351C4B6D690024FAD4 /* Build configuration list for PBXProject "BlurryImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03CCAB311C4B6D690024FAD4;
+			productRefGroup = 03CCAB3B1C4B6D690024FAD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03CCAB391C4B6D690024FAD4 /* BlurryImage */,
+				03CCAB521C4B6D6A0024FAD4 /* BlurryImageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03CCAB381C4B6D690024FAD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CCAB4E1C4B6D690024FAD4 /* LaunchScreen.xib in Resources */,
+				03CCAB4B1C4B6D690024FAD4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03CCAB511C4B6D6A0024FAD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03CCAB361C4B6D690024FAD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CCAB6E1C4B6EBF0024FAD4 /* ANBlurredImageView.m in Sources */,
+				03CCAB681C4B6DFC0024FAD4 /* DemoController.m in Sources */,
+				03CCAB431C4B6D690024FAD4 /* AppDelegate.m in Sources */,
+				03CCAB6F1C4B6EBF0024FAD4 /* UIImage+BoxBlur.m in Sources */,
+				03CCAB401C4B6D690024FAD4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03CCAB4F1C4B6D6A0024FAD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03CCAB5A1C4B6D6A0024FAD4 /* BlurryImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03CCAB551C4B6D6A0024FAD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03CCAB391C4B6D690024FAD4 /* BlurryImage */;
+			targetProxy = 03CCAB541C4B6D6A0024FAD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03CCAB4C1C4B6D690024FAD4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03CCAB4D1C4B6D690024FAD4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03CCAB5B1C4B6D6A0024FAD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03CCAB5C1C4B6D6A0024FAD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03CCAB5E1C4B6D6A0024FAD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlurryImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03CCAB5F1C4B6D6A0024FAD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlurryImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		03CCAB611C4B6D6A0024FAD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BlurryImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlurryImage.app/BlurryImage";
+			};
+			name = Debug;
+		};
+		03CCAB621C4B6D6A0024FAD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BlurryImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlurryImage.app/BlurryImage";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03CCAB351C4B6D690024FAD4 /* Build configuration list for PBXProject "BlurryImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03CCAB5B1C4B6D6A0024FAD4 /* Debug */,
+				03CCAB5C1C4B6D6A0024FAD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03CCAB5D1C4B6D6A0024FAD4 /* Build configuration list for PBXNativeTarget "BlurryImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03CCAB5E1C4B6D6A0024FAD4 /* Debug */,
+				03CCAB5F1C4B6D6A0024FAD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03CCAB601C4B6D6A0024FAD4 /* Build configuration list for PBXNativeTarget "BlurryImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03CCAB611C4B6D6A0024FAD4 /* Debug */,
+				03CCAB621C4B6D6A0024FAD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03CCAB321C4B6D690024FAD4 /* Project object */;
+}
